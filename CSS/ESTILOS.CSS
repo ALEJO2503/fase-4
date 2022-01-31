@@ -173,5 +173,24 @@ main{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     grid-column: 1/4;
     height: 340px;
+
 }
+    @media only screen and (max-width:600px) {
+      #main {
+          display: block;
+      }
+    aside,section{
+        width: 40%;
+        margin: botton 9px; ;
+        
+    }
+    #main{
+        margin: botton 9px; ;}
+    }
+h1{
+    font-size: 0.85mm;
+
+}
+
+
    
